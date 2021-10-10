@@ -140,9 +140,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: black;
 		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
+		font-weight: 900;
 		font-size: 1rem;
 		line-height: 1.65;
 	}
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -1481,7 +1481,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px ffffff;
 					}
 
 						#header nav ul li:first-child {
@@ -1659,3 +1659,6 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+#white{
+	color: white;
+}
