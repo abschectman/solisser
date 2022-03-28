@@ -156,9 +156,9 @@ input, select, textarea {
 		color: inherit;
 	}
 
-		a:hover {
+		/* a:hover {
 			border-bottom-color: transparent;
-		}
+		} */
 
 	strong, b {
 		color: #ffffff;
@@ -919,9 +919,9 @@ input, select, textarea {
 				width: 2.25rem;
 			}
 
-				ul.icons li a:hover {
+				/* ul.icons li a:hover {
 					background-color: rgba(255, 255, 255, 0.075);
-				}
+				} */
 
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
@@ -1274,11 +1274,11 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
-				width: 1px;
-				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				top: calc(-3.5rem - 4px);
+				left: calc(50% - 5px);
+				width: 4px;
+				height: calc(3.5rem + 5px);
+				background: #e0b107;
 			}
 
 		#header > :first-child {
@@ -1293,7 +1293,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 4px #e0b107;
 			border-radius: 100%;
 		}
 
@@ -1303,9 +1303,9 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-color: #e0b107;
+			border-top-width: 4px;
+			border-bottom-width: 4px;
 			max-width: 100%;
 		}
 
@@ -1342,13 +1342,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 1px #e0b107;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px black;
 			}
 
 				#header nav ul li:first-child {
@@ -1365,11 +1365,12 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 18px;
 					border-bottom: 0;
+					background-color: #e0b107;
 				}
 
-					#header nav ul li a:hover {
+					/* #header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
-					}
+					} */
 
 					#header nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
@@ -1658,6 +1659,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-#white{
+#white {
 	color: white;
+}
+#gold {
+	color: #e0b107;
 }
